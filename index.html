@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,55 +19,59 @@
             font-family: 'Orbitron', sans-serif;
             color: #ffffff;
         }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #0a0a0a;
+            border: 1px solid #333;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
         .hero {
             background-color: #0a0a0a;
-            padding: 50px;
+            padding: 40px;
             text-align: center;
-        }
-        .hero h1 {
-            font-size: 48px;
-            margin-bottom: 20px;
         }
         .diferenciais {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            padding: 50px;
         }
         .diferencial {
-            background-color: #1a1a1a;
+            background-color: #0a0a0a;
             padding: 20px;
             border: 1px solid #333;
             margin: 10px;
             width: calc(33.33% - 20px);
             backdrop-filter: blur(10px);
         }
-        .diferencial h2 {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
         .mapa {
-            padding: 50px;
             text-align: center;
+            margin: 40px auto;
         }
         .mapa iframe {
             border: 1px solid #333;
+            border-radius: 10px;
             width: 100%;
             height: 400px;
         }
         .contato {
-            padding: 50px;
+            padding: 20px;
+            background-color: #0a0a0a;
+            border: 1px solid #333;
+            margin: 40px auto;
             text-align: center;
         }
         .contato p {
-            font-size: 18px;
             margin-bottom: 20px;
         }
         .footer {
             background-color: #0a0a0a;
-            padding: 20px;
+            padding: 10px;
             text-align: center;
             color: #e0e0e0;
+            font-size: 14px;
         }
         @media (max-width: 768px) {
             .diferencial {
@@ -82,34 +86,35 @@
     </style>
 </head>
 <body>
-    <header class="hero">
-        <h1>Usinagem Industrial Catrolio - Alta Autoridade Industrial</h1>
-        <p>Tradição técnica e precisão em usinagem</p>
-    </header>
-    <section class="diferenciais">
-        <div class="diferencial">
-            <h2>Precisão</h2>
-            <p>Nossa equipe de especialistas trabalha com equipamentos de alta tecnologia para garantir a precisão em todos os nossos serviços</p>
+    <div class="container">
+        <div class="hero">
+            <h1>Usinagem Industrial Catrolio</h1>
+            <h2>Tornearia de Alta Precisão</h2>
         </div>
-        <div class="diferencial">
-            <h2>Equipamentos Modernos</h2>
-            <p>Nossa frota de equipamentos é composta por máquinas de última geração, garantindo a eficiência e a qualidade em todos os nossos trabalhos</p>
+        <div class="diferenciais">
+            <div class="diferencial">
+                <h3>Precisão</h3>
+                <p>Nossa equipe de especialistas trabalha com equipamentos de última geração para garantir a precisão em todos os nossos serviços.</p>
+            </div>
+            <div class="diferencial">
+                <h3>Equipamentos Modernos</h3>
+                <p>Nossa frota de máquinas é composta por equipamentos de alta tecnologia, garantindo a eficiência e a qualidade em todos os nossos serviços.</p>
+            </div>
+            <div class="diferencial">
+                <h3>Pontualidade</h3>
+                <p>Nossa equipe trabalha com prazos rigorosos para garantir a entrega dos serviços no prazo estabelecido.</p>
+            </div>
         </div>
-        <div class="diferencial">
-            <h2>Pontualidade</h2>
-            <p>Nossa equipe trabalha com rigor e disciplina para garantir a entrega dos projetos no prazo estabelecido</p>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.887251142855!2d-47.05941968500001!3d-22.43361158500001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c56f2c3b4b4bb5%3A0x9c5f3f2c3b4b4bb5!2sUsinagem%20Industrial%20Catrolio!5e0!3m2!1spt-BR!2sbr!4v1652861423421!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:1px solid #333;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
-    </section>
-    <section class="mapa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.474111141835!2d-47.05961138500001!3d-22.43421918500001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89c43c43c43c3%3A0x5f5f5f5f5f5f5f5f!2sMogi%20Mirim%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1662012342342!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:1px solid #333;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-    <section class="contato">
-        <p>Entre em contato conosco:</p>
-        <p>Telefone: (19) 9 9999-9999</p>
-        <p>Endereço: Mogi Mirim, SP</p>
-    </section>
-    <footer class="footer">
-        <p>Arquitetura Digital por XTAL Group - Soluções Forenses Industriais</p>
-    </footer>
+        <div class="contato">
+            <p>Contato: (19) 9 1234-5678</p>
+            <p>Endereço: Mogi Mirim</p>
+        </div>
+        <div class="footer">
+            <p>Arquitetura Digital por XTAL Group - Soluções Forenses Industriais</p>
+        </div>
+    </div>
 </body>
 </html>
